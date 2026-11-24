@@ -1,0 +1,23 @@
+# Local credentials, certificates and system state
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+*.pem
+*.key
+*.p12
+*.pfx
+**/internal_users.yml
+**/docker-compose.yml
+wazuh-private-backup/
+*.log
+*.tmp
+*.bak
+~$*
+.DS_Store
+Thumbs.db
+*.qcow2
+*.vmdk
+*.vdi
+*.iso
