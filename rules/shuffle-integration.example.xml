@@ -1,0 +1,7 @@
+<!-- Manager ossec.conf fragment. Substitute the lab receiver URL at deployment. -->
+<integration>
+  <name>custom-shuffle-auth</name>
+  <hook_url>https://shuffle.example.invalid/WEBHOOK_PLACEHOLDER</hook_url>
+  <level>10</level>
+  <alert_format>json</alert_format>
+</integration>

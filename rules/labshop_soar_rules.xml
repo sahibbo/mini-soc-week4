@@ -1,0 +1,7 @@
+<group name="labshop_soar,">
+  <rule id="110350" level="10">
+    <decoded_as>labshop-soar-block</decoded_as>
+    <description>LabShop SOAR blocked IP $(srcip) for $(extra_data) seconds</description>
+    <group>active_response,</group>
+  </rule>
+</group>

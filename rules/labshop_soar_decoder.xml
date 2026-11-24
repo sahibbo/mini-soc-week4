@@ -1,0 +1,5 @@
+<decoder name="labshop-soar-block">
+  <prematch>LabShop SOAR: BLOCKED: </prematch>
+  <regex offset="after_prematch">(\S+) for (\d+) seconds</regex>
+  <order>srcip,extra_data</order>
+</decoder>
